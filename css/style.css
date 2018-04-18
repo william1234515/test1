@@ -1,0 +1,83 @@
+.calendar{
+      font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+      width: 100%;
+      text-align: center;
+      overflow: hidden;
+  }
+  #calendar_weekday{
+      width: 100%;
+  }
+ #calendar_weektitle{
+     width: 100%;
+ }
+ .prev{
+     /*cursor: pointer;*/
+     float: left;
+     padding-left: 5%;
+ }
+ .next{
+    /* cursor: pointer;*/
+     float: right;
+     padding-right:5%;
+ }
+ 
+ #calendar_weekday div,#calendar_weektitle div{
+     border : 0.5px solid gray;
+     font-size: 11px;
+     font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ #calendar_weekday div{
+     border : 0.5px solid gray;
+     color: gray;
+
+ }
+
+ }
+ #regis,#instalment{
+     line-height: 35px;
+     font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 14px;
+     width: 100%;
+     padding-left: 20px;
+ }
+ #regis{
+     background-color: #ffd96a;
+     height: 40px;
+ }
+ #instalment{
+     border-bottom: 1px solid gray;
+     height: 36px;
+ }
+ #year{
+  	 font-size:2em;
+ }
+ #month{
+  	 font-size:2em;
+
+ }
+ .word{
+   	 font-size:2em;
+ } 
+ .div{
+     font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+     font-size:30PX;
+     width: 14%;
+     height: 80px;
+     line-height: 80px;
+     text-align: center;
+     float: left; 
+     background-color: #f0f8ff;
+   }
+   .div_1{
+    width: 14%;
+    height: 110px;
+    float: left;
+    text-align: left;
+   }
+   .div_2{
+    width: 14%;
+    height: 110px;
+    float: left;
+    text-align: left;
+    color: black;
+   }
